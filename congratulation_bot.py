@@ -1,9 +1,7 @@
 import telebot
 from pic_overlaper import congratulation_func
-from envparse import env
 
-TOKEN = env.str('TOKEN')
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot('6928806020:AAHARqE0zltWkvojN9i-sw-O3hDw0F9gcVg')
 
 
 @bot.message_handler(content_types=['text'])
